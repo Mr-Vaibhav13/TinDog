@@ -1,0 +1,173 @@
+#title{
+    background-color: #ff4c68;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.navbar{
+    padding: 0 0 4rem;
+}
+
+.nav-item{
+    padding: 0 1rem;
+}
+
+.nav-link{
+    font-size: 1.35rem;
+    color: lightblue;
+    font-family: "Montserrat-Light";
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 1.95rem;
+    font-family: "Montserrat-Light";
+
+}
+
+
+.row h1{
+    font-weight: bold;
+    line-height: 3.95rem;
+    color: white;
+    font-size: 2.55rem;
+}
+
+.container-fluid{
+    padding: 3% 15% 19%;
+}
+
+.btn{
+    margin-top: 2rem;
+    margin-right: 1.85rem;
+}
+
+.colss{
+    width: 26%;
+    /* padding-left: 2rem; */
+    transform: rotate(20deg);
+    position: absolute;
+    right: 20%;
+    /* top: 30%; */
+}
+
+
+@media (max-width:1028px){
+
+    .title{
+      text-align: center;
+    }
+   .colss{
+    position:static;
+    padding-top: 70px;
+    transform: rotate(0deg);
+   }
+}
+
+/* ---------------------------------- */
+.col-lg-4{
+    /* margin: auto; */
+    text-align: center;
+    font-family: "Montserrat-bold";
+    padding: 7.5%;
+}
+
+
+.fa-solid{
+    width: 10%;
+    color: #ff4c68;
+    padding-right:5rem;
+    padding-bottom: 1rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+} 
+#features{
+    padding: 7% 15%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+}
+
+
+
+/* ----------------------------------------------------------- */
+
+.con{
+   background-color: #ff4c68;
+   padding: 3%;
+   text-align: center;
+}
+
+#testimonials{
+    margin-bottom: 7em;
+}
+
+#testimonials h2{
+    font-family: "Montserrat-bold";
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 4rem;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+}
+
+#testimonials img{
+    width: 8%;
+    border-radius: 20em;
+    /* margin-bottom: 4em; */
+}
+
+#testimonials em{
+    padding-left: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: white;
+    /* margin-bottom: 4em; */
+}
+
+
+.pp{
+    /* image-size: 20px; */
+    width: 15%;
+    margin-right: 2em;
+    
+}
+
+
+/* --------------------------------------------------*/
+
+#pricing{
+    padding: 6rem 4rem;
+    /* text-align: center; */
+}
+
+
+#pricing h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.card-body h2{
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.btn{
+    margin-top: 0em;
+    margin-right: 0em;
+    width: 100%;
+}
+
+.col-lg-4{
+    padding: 0.5%;
+}
+
+
+/* --------------------------------------------- */
+
+#footer p{
+    text-align: center;
+}
